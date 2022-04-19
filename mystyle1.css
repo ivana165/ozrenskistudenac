@@ -1,0 +1,101 @@
+body{
+	background-image: url('5.jpg');
+  background-size: cover;
+}
+
+
+
+  ul{
+		 list-style-type: none;
+		 margin:0;
+		 padding:0;
+		 overflow: hidden;
+         background-color:rgba(92, 151, 191, 0.55);
+		 	position: -webkit-sticky;
+        position: sticky;
+	    top:0;
+		}
+		
+		
+	   li{
+         display:inline;	
+		float:left;
+		font-size:20px;
+
+	  }		 
+		 
+    li a{ 
+	 display: block;
+	 color:white;
+	 text-align:center;
+	 padding:14px 16px;
+	 font-weight:bold;
+	 text-decoration:underline;
+	 }
+	 li a:hover{
+		 background-color: rgb(92, 151, 191);
+	 }
+	 
+	 
+	 
+	 h1{
+		 margin-top:6px;
+		 text-align:center;
+		 color:white;
+		 text-shadow:5px 5px #000000;
+		 font-size:60px;
+		 font-family:Tahoma, sans-serif;
+	
+	
+	 }
+	 h3{
+	     color:white;
+		 text-shadow:4px 4px #000000;
+		 font-size:37px;
+		 font-family:Tahoma, sans-serif;
+		 margin:0;
+	 }
+	 
+
+	
+
+    .lista{
+		background-color: rgba(0, 115, 111, 0.3);
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 18px;
+        transition: 0.4s;
+		text-decoration:underline;
+
+		
+	 }
+	 
+	 .panel p{
+		 color:white;
+		 font-size:22px;
+	 }
+     
+	 
+	 
+	 .active, .lista:hover {
+      background-color:rgb(92, 151, 191);
+}
+
+
+	 .panel{
+	  padding: 0 18px;
+      display: none;
+      background-color: rgba(0, 115, 111, 0.3);
+      overflow: hidden;
+	 }
+	  p a{color:white;
+	  text-decoration:none;
+	  }
+	  p a:hover {
+		  text-decoration:underline;
+	  }

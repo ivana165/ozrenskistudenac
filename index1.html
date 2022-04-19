@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" href="mystyle1.css">
+</head>
+<body>
+
+<ul>
+
+<li><a href="index.html">Početna</a></li>
+<li><a href="index1.html">O nama</a></li>
+<li><a href="index2.html">Akcije udruženja</a></li>
+<li><a href="index3.html">Galerija</a></li>
+<li><a href="index4.html">Dešavanja</a></li>
+
+</ul>
+
+
+<h1> O nama </h1>
+<h3> Osnivanje i naši ciljevi</h3><hr>
+<button class="lista">Osnivanje udruženja:</button>
+<div class="panel">
+<p>Početkom januara 2022.godine u opštini Petrovo osnovano je Ekološko udruženje „Ozrenski Studenac“
+ Sočkovac,koje je rezultat straha mještana od mogućih većih zagađenja na ovom području.
+ Naše udruženje trenutno broji oko članova, s tim da je taj broj svakim danom sve veći. Na platformi Facebook 
+ trenutno imamo 1.1 hiljadu članova koji svakodnevno prate dešavanja udruženja i učestvuju u promovisanju 
+ istog, podržavaju naše udruženje i akcije ovog udruženja.
+</p>
+</div>
+
+
+
+
+<button class="lista">Naši ciljevi:</button>
+<div class="panel">
+<p>-Očuvanje zdrave životne sredine sela Sočkovac i šireg područija planine Ozren
+-Aktivan rad u zakonodavnoj inicijativi, predlaganje izmjena i dopuna zakona i drugih
+opštih akata i njihovo uskladivanje sa realnim potrebama članova udruženja
+-Zauzimanje zajedničkih stavova članova udruženja po pitanju saradnje sa nadležnim
+ministarstvom, kao i drugim ministarstvima i nadležnim organima te zastupanje interesa članova udruženja
+-Formiranje ekoloških standarada, te edukacija stanovništva u pogledu očuvanja prirode i prirodnih bogatstava
+-Povezivanje sa drugim strukovnim udruženjima u zemlji i inostranstvu, kao i formiranje strategije razvoja područija
+ planine Ozren
+-Rad na sanaciji divljih deponija i rješavanja problema u vezi nelegalnog odlaganja otpada
+-Zalaganje za proglašenju šireg područija planine Ozren u zaštićeno područije prirode
+(nacionalni park ili park prirode) kako je predvideno prostornim planom Republike
+Srpske od 2015-2025. godine
+-Promocija seoskog turizma i proizvodnje organske hrane u skladu sa ekološkim
+standardima Evropske unije
+-Edukacija stanovništva u cilju podizanja ekološke svjesti građana
+-Očuvanje tradicije i običaja stanovništva Ozrena
+-Očuvanje i prirodnih bogatstava i resursa (šuma, voda, rudnih bogatstava i životinja) na planini Ozren
+-Učešće u projektima vezanim za zaštitu životne sredine i opstanka seoskih
+domaćinstava
+</p>
+</div>
+
+<button class="lista">Kontakt: </button>
+<div class="panel">
+<p>
+Lokacija: Kamenici broj 5 Sočkovac<br>
+<br>
+Kontakt telefon: 066/016-194<br>
+<br>
+<a href="https://www.facebook.com/groups/487302796146429"  target="_blank">Facebook grupa: Ekološko udruženje "OZRENSKI STUDENAC" Sočkovac</a></p>
+
+</p>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("lista");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+</body>
+</html>
